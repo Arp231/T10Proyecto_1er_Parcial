@@ -1,11 +1,8 @@
-*{
-
-	border:solid 
-}
 
 #wrapper {
 width: 80%;
 text-align: center;
+margin:auto;
 margin-top: 20px;
 }
 
@@ -18,8 +15,13 @@ margin-top: 20px;
 nav ul{
     list-style:none;
     margin:0 10px 0 10px;
-    padding:0;
+    padding:10px;
     background: black;
+}
+
+li a{
+	text-decoration: none;
+    color: white;
 }
 
 img{
@@ -28,22 +30,22 @@ img{
 
 nav ul li{
 
-    border-radius:5px;/*Estandar por defecto*/
+    border-radius:5px;
     float:right;
     font-family:Helvetica, sans-serif;
     font-size:16px;
     font-weight:bold;
     margin-right:10px;
     text-align:center;
-    text-shadow: 0px 1px 0px #FFF;
-    background: red;
+    background: black;
+
 }
 
 
 #n1{
 	display: inline-block;
 	width:80%;
-	border:solid red;
+
 	float:left;
 	height: 40em;
 }
